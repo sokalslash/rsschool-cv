@@ -29,5 +29,8 @@ function solution(string) {
 }
 ```
 
+## Work experience:
+Educational project https://sokalslash.github.io/1789983-keksobooking-23/ "Keksobooking"
+
 
 
