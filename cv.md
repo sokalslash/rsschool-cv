@@ -6,8 +6,8 @@
 - Discord: Maryia Liss(@sokalslash)
 
 ## About me:
-Считаю себя честным и целеустремленным человеком. Обладаю эмоциональной гибкостью. 
-Изучаю фронтенд разработку и получаю от этого удовольствие. Планирую сменить сферу деятельности. В настоящий момент работаю бухгалтером. 
+I consider myself an honest, hardworking and purposeful person. I have emotional flexibility. 
+I study front-end development and enjoy it. I plan to become an front-end developer. Now I work as an accountant.
 
 ## Skills:
 - HTML
@@ -30,7 +30,30 @@ function solution(string) {
 ```
 
 ## Work experience:
-Educational project https://sokalslash.github.io/1789983-keksobooking-23/ "Keksobooking"
+Educational project https://sokalslash.github.io/1789983-keksobooking-23/ "Keksobooking"  
+Soucse code https://github.com/sokalslash/1789983-keksobooking-23
+### Key skills:
+- ES modules
+- AJAX
+- Fetch API
+- Promise
+- Validation of forms on the client
+- Library Leaflet
+
+## Aducation:
+- Minsk Innovation University
+  - Economics and management at an industrial enterprise,
+qualification: Economist-Manager
+- Online courses from Html academy
+  - JavaScript. Professional development of web interfaces https://assets.htmlacademy.ru/certificates/intensive/205/1789983.pdf "certificate"
+  - JavaScript. Architecture of front-end
+applications https://assets.htmlacademy.ru/certificates/intensive/211/1789983.pdf "certificate"
+  - React. Development of complex front-end applications https://assets.htmlacademy.ru/certificates/intensive/217/1789983.pdf "certificate"
+
+## Language
+ - Russian - Native
+ - English - A1
+
 
 
 
