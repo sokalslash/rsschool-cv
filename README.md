@@ -1,1 +1,1 @@
-https://sokalslash.github.io/rsschool-cv/
+https://sokalslash.github.io/rsschool-cv/cv
