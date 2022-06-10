@@ -18,8 +18,27 @@
   font-display: swap;
 }
 
+@keyframes slidein {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: calc(100% - 24px);
+  }
+}
+
 * {
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -29,18 +48,52 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
 }
 
-.header,
-.main,
-.footer {
-  border: 1px solid black;
+.header {
+  background-color: #829985;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid red;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.menu__link {
+  position: relative;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  color: #fff;
+}
+
+.menu__link::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: -5px;
+  width: calc(100% - 24px);
+  height: 2px;
+  background-color: #fff;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.menu__link:hover::after {
+  opacity: 1;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
