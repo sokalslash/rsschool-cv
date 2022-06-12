@@ -45,13 +45,15 @@ Educational project ["Keksobooking"]
   - Economics and management at an industrial enterprise,
 qualification: Economist-Manager
 - Online courses from Html academy
-  - JavaScript. Professional development of web interfaces https://assets.htmlacademy.ru/certificates/intensive/205/1789983.pdf "certificate"
+  - JavaScript. Professional development of web interfaces ["certificate"]
+  (https://assets.htmlacademy.ru/certificates/intensive/205/1789983.pdf)
   - JavaScript. Architecture of front-end
-applications https://assets.htmlacademy.ru/certificates/intensive/211/1789983.pdf "certificate"
-  - React. Development of complex front-end applications https://assets.htmlacademy.ru/certificates/intensive/217/1789983.pdf "certificate"
+applications ["certificate"] (https://assets.htmlacademy.ru/certificates/intensive/211/1789983.pdf)
+  - React. Development of complex front-end applications ["certificate"]( https://assets.htmlacademy.ru/certificates/intensive/217/1789983.pdf)
 
 ## Language
- - Russian - Native
+ - Belarusian
+ - Russian
  - English - A1
 
 
