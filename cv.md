@@ -1,6 +1,7 @@
 # Maryia Lisitsa
 
 ## Contacts:
+- Minsk, Belarus
 - E-mail: sokalslash@mail.ru 
 - Telegram: Maryia Lisitsa 
 - Discord: Maryia Liss(@sokalslash)
@@ -17,7 +18,6 @@ I study front-end development and enjoy it. I plan to become an front-end develo
 - React, Redux, Redux Thunk
 - Webpack, Gulp
 - Git
-- VSCode
 
 ## Code example:
 Complete the solution so that the function will break up camel casing, using a space between words.
@@ -30,8 +30,8 @@ function solution(string) {
 ```
 
 ## Work experience:
-Educational project https://sokalslash.github.io/1789983-keksobooking-23/ "Keksobooking"  
-Soucse code https://github.com/sokalslash/1789983-keksobooking-23
+Educational project ["Keksobooking"] 
+(https://github.com/sokalslash/1789983-keksobooking-23)
 ### Key skills:
 - ES modules
 - AJAX
