@@ -5,7 +5,7 @@
 - Telegram: Maryia Lisitsa 
 - Discord: Maryia Liss(@sokalslash)
 
-## About me:
+## Summary:
 I consider myself an honest, hardworking and purposeful person. I have emotional flexibility. 
 I study front-end development and enjoy it. I plan to become an front-end developer. Now I work as an accountant.
 
@@ -40,7 +40,7 @@ Soucse code https://github.com/sokalslash/1789983-keksobooking-23
 - Validation of forms on the client
 - Library Leaflet
 
-## Aducation:
+## Education:
 - Minsk Innovation University
   - Economics and management at an industrial enterprise,
 qualification: Economist-Manager
