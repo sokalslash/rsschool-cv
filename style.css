@@ -191,3 +191,26 @@ body {
   background-image: url(./assets/img/rs_school_js.svg);
   background-repeat: no-repeat;
 }
+
+@media (max-width: 910px) {
+  .section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 910px) {
+  .menu__list {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 445px) {
+  .header__title,
+  .header__subtitle {
+    text-align: center;
+  }
+
+  .pre {
+    overflow: scroll;
+  }
+}
