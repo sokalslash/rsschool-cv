@@ -75,17 +75,24 @@ body {
 }
 
 .section__avatar {
+  margin-top: 24px;
   border-radius: 50%;
 }
 
 .header__title,
 .header__subtitle {
   color: #fff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
   opacity: 0.7;
 }
 
 .header__subtitle {
   margin: 0 0 18px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+
 }
 
 .menu {
@@ -95,7 +102,8 @@ body {
 
 .menu__list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-around;
+  padding: 0;
   list-style: none;
 }
 
@@ -128,16 +136,29 @@ body {
 }
 
 .section__title {
+  font-size: 20px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 .main__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section {
-  width: 50%;
+  width: calc(50% - 20px);
+  border-bottom: 1px solid #000;
+}
+
+.section a {
+  color: #191970;
+}
+
+.pre {
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width:768px) {
