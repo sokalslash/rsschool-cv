@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" href="./assets/img/favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <img class="section__avatar" width="150" src="./assets/img/photo_2022-06-14_05-11-34.jpg" alt="avatar">
+        <h1 class="header__title">
+          Maryia Lisitsa
+        </h1>
+        <h2 class="header__subtitle">
+          trainee front-end developer
+        </h2>
+      </div>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Contacts</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#summary">Summary</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#code">Code</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#projects">Projects</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#education">Education</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#language">Language</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container  main__container">
+      <section class="section" id="contacts">
+        <h2 class="section__title">
+          contacts
+        </h2>
+        <ul class="section__list">
+          <li class="section__item contacts__item">
+            Minsk Belarus
+          </li>
+          <li class="section__item contacts__item">
+            E-mail: sokalslash@mail.ru
+          </li>
+          <li class="section__item contacts__item">
+            Telegram: Maryia Lisitsa
+          </li>
+          <li class="section__item contacts__item">
+            Discord: Мария Лисица#9584
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section__title">
+          summary
+        </h2>
+        <p>
+          I consider myself an honest, hardworking and purposeful person. I have emotional flexibility. I study front-end development and enjoy it. I plan to become an front-end developer. Now I work as an accountant.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section__title">
+          skills
+        </h2>
+        <ul class="section__list">
+          <li class="section__item">
+            HTML
+          </li>
+          <li class="section__item">
+            CSS, SASS (BEM)
+          </li>
+          <li class="section__item">
+            JS
+          </li>
+          <li class="section__item">
+            Typescript
+          </li>
+          <li class="section__item">
+            React, Redux, Redux Thunk
+          </li>
+          <li class="section__item">
+            Webpack, Gulp
+          </li>
+          <li class="section__item">
+            Git
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section__title">
+          code
+        </h2>
+        <p>
+          Complete the solution so that the function will break up camel casing, using a space between words.
+        </p>
+        <pre class="pre">
+          <code>
+function solution(string) {
+const addSpace = (match) => ' ' + match; 
+return string.replace(/[A-Z]+/g, addSpace);
+}
+          </code>
+        </pre>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section__title">
+          projects
+        </h2>
+        <ul class="section__list">
+          <li class="section__item">
+            Educational project
+            <a class="section__link" href="https://github.com/sokalslash/1789983-keksobooking-23" target="_blank">
+              "Keksobooking"
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section__title">
+          education
+        </h2>
+        <ul class="section__list">
+          <li class="section__item">
+            Minsk Innovation University
+            <ul class="education__list">
+              <li class="education__item">
+                Economics and management at an industrial enterprise, qualification: Economist-Manager
+              </li>
+            </ul>
+          </li>
+          <li class="section__item">
+            Online courses from Html academy
+            <ul class="education__list">
+              <li class="education__item">
+                JavaScript. Professional development of web interfaces
+                <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/205/1789983.pdf">certificate</a>
+              </li>
+              <li class="education__item">
+                JavaScript. Architecture of front-end applications
+                <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/211/1789983.pdf">certificate</a>
+              </li>
+              <li class="education__item">
+                React. Development of complex front-end applications
+                <a class="education__link" href="https://assets.htmlacademy.ru/certificates/intensive/217/1789983.pdf">certificate</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="language">
+        <h2 class="section__title">
+          language
+        </h2>
+        <ul class="section__list">
+          <li class="section__item">
+            Belarusian
+          </li>
+          <li class="section__item">
+            Russian
+          </li>
+          <li class="section__item">
+            English - A1
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer__container">
+      <div>
+        © 2022
+        <a class="githab__link menu__link" href="https://github.com/sokalslash">
+          sokalslash
+        </a>
+      </div>
+      <a class="rss" href="https://rs.school/js/"></a>
+    </div>
+  </footer>
+</body>
+</html>
