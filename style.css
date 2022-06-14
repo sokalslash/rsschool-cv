@@ -36,6 +36,11 @@ html {
   scroll-behavior: smooth;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -52,7 +57,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #4d2323;
 }
 
 .header {
@@ -62,6 +66,31 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__avatar {
+  border-radius: 50%;
+}
+
+.header__title,
+.header__subtitle {
+  color: #fff;
+  opacity: 0.7;
+}
+
+.header__subtitle {
+  margin: 0 0 18px;
+}
+
+.menu {
+  border-top: 1px solid #fff;
+  opacity: 0.7;
 }
 
 .menu__list {
